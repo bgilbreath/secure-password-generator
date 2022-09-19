@@ -9,7 +9,7 @@ A secure password generator. Asks the user for their desired generated password 
 
 ## Installation
 
-Project is a completed webpage, that can be visited via URL, 
+Project is a completed webpage, that can be visited via URL, https://bgilbreath.github.io/secure-password-generator/
 
 ## Usage
 
