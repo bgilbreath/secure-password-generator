@@ -1,21 +1,28 @@
+<!--Meta data-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Page title-->
     <title>Password Generator</title>
+    <!--CSS stylesheet-->
     <link rel="stylesheet" href="style.css" />
   </head>
+  <!--Body-->
   <body>
     <div class="wrapper">
+      <!--Page header-->
       <header>
         <h1>Password Generator</h1>
       </header>
       <div class="card">
         <div class="card-header">
+          <!--Header for card-->
           <h2>Generate a Password</h2>
         </div>
+        <!--Generated password output area-->
         <div class="card-body">
           <textarea
             readonly
@@ -24,11 +31,14 @@
             aria-label="Generated Password"
           ></textarea>
         </div>
+        <!--Footer-->
         <div class="card-footer">
+          <!--Generate password button-->
           <button id="generate" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
+    <!--JavaScript functionality-->
     <script src="script.js"></script>
   </body>
 </html>
